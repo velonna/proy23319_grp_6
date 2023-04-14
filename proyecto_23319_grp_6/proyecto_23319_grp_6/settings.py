@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import environ 
-
+# lineas que detectan el archivo env
 env = environ.Env()
 environ.Env.read_env()
 
